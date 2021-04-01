@@ -1,0 +1,193 @@
+Laser Mayhem v1.1                                               October 12,1999
+=================
+for MirageOS on the TI-83+
+
+by badja
+http://badja.calc.org
+badja@alphalink.com.au
+
+MirageOS port by Andrew Magness
+http://www.detacheds.com
+andrew@detacheds.com
+
+About
+-----
+Laser Mayhem is a puzzle game based on Laserstrike for Windows by Kevin Ng.
+Version 1.1 is now for MirageOS.
+
+
+New Features
+------------
+Laser Mayhem now uses external levels and comes with a level editor for
+Windows 3.1 or above. Upon starting the game, you are taken to the level you
+were up to when you last played that particular level set.
+
+
+Installing
+----------
+Send  LASER.8xp and LASERLEV.8xp file to your calculator. 
+
+If you want to play external levels, you can remove the Standard Levels if you
+like by deleting LASERLEV from your calculator. Make sure you send the
+external levels after having sent the Laser Mayhem program file.
+
+
+How to Play
+-----------
+Here is a description of each block in the game. Level 1 in the Standard
+Levels contains every block, and teaches you almost everything about the game.
+
+  лллл          Iris
+ л  л л 
+л   л  л        Shoot this twice to complete the level.
+ллллл  л
+л  ллллл
+л  л   л
+ л л  л 
+  лллл  
+
+  лллл          Track Tank
+ллл  ллл
+л л  л л        Fire these by moving your cursor onto them and pressing 2nd.
+л л  л л        They can be moved back and forward along a track using Arrows
+л л  л л        (see below). If one of these is hit it will be destroyed.
+л  лл  л
+л      л
+ лллллл 
+
+  лллл          Pod Tank
+ лл  лл 
+л л  л л        Fire these in the same way as Track Tanks. They cannot be
+л л  л л        moved, but will rotate 90 degrees clockwise when hit by a
+л л  л л        laser.
+л  лл  л
+ л    л 
+  лллл  
+
+лллллллл        Arrow
+л      л
+л  лл  л        Move your cursor onto these and press 2nd to move a Track Tank
+л лллл л        along the track.
+л  лл  л
+л  лл  л
+л      л
+лллллллл
+
+                Track
+лллллллл
+                This is what Tank Tracks move along. If it is hit by a laser
+                it will be destroyed.
+
+
+лллллллл
+
+
+                Mirror
+      л 
+     лл         These reflect lasers by 90 degrees when hit on the slanted
+    ллл         side. They will move when hit from behind.
+   лл л 
+  лл  л 
+ лллллл 
+        
+
+                Movable Block
+ лллллл 
+ л    л         These move when hit by a laser.
+ л лл л 
+ л лл л 
+ л    л 
+ лллллл 
+        
+
+лллллллл        Steel
+л лллл л
+лллллллл        These block the path of lasers.
+лллллллл
+лллллллл
+лллллллл
+л лллл л
+лллллллл
+
+лллллллл        Brick
+л   л   
+лллллллл        These are destroyed after two shots.
+  л   л 
+лллллллл
+л   л   
+лллллллл
+  л   л 
+
+ллл  ллл        Gate
+ллл  ллл
+ллл  ллл        These let one laser beam pass through before they close up.
+        
+        
+ллл  ллл
+ллл  ллл
+ллл  ллл
+
+  лл            Acid
+ л  ллл 
+ л     л        Acid can eat through everything except more acid. If there is
+л      л        nothing in its path, acid will move and not be used up.
+л     л 
+ л     л
+ л лл  л
+  л  лл 
+
+  лллл          Rotating Gate
+ лллллл 
+лллллллл        When fired through the gap, these will rotate 90 degrees. When 
+                hit on the side, the laser will be blocked.
+        
+лллллллл
+ лллллл 
+  лллл  
+
+
+In-game Keys
+------------
+Arrows  Move cursor
+   2nd  Fire tank (when cursor is on tank)
+        Move tank (when cursor is on arrow)
+   +/-  Change level
+   DEL  Restart level
+ CLEAR  Exit game
+
+
+Level Editor
+------------
+The level editor runs under Windows 3.1 or above. Just run the LASERED.EXE
+file. You need the following files either in the same directory or in the
+Windows system directory:
+
+Included in the ZIP file:
+    CMDIALOG.VBX
+    COMMDLG.DLL
+    PICCLIP.VBX
+NOT included in the ZIP file:
+    VBRUN300.DLL
+
+If you get an error saying that you need VBRUN300.DLL, you can download
+it from the Laser Mayhem web page at http://move.to/badja
+
+Once you have saved your level set, all you need to do is assemble it with
+ION. You can get ION from the www.ticalc.org or joewing.calc.org
+
+To assemble a level set called "custom.z80", you would type:
+
+    asm custom
+
+Then send the 83P or 8xp file to your calculator (after having sent Laser Mayhem).
+
+
+Credits
+-------
+All the Standard Levels in Laser Mayhem are original (by badja).
+Download Laserstrike for Windows by Kevin Ng if you want an easier intro-
+duction to the game. Get it from the Laser Mayhem web page at
+http://badja.calc.org
+
+Send any comments, ideas, or other feedback to badja@alphalink.com.au
+Send questions about the MirageOS version to andrew@detacheds.com
